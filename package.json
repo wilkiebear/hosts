@@ -1,8 +1,9 @@
 {
   "name": "hosts",
-  "version": "1.4.10",
+  "version": "3.9.15",
   "description": "Extending and consolidating hosts files from several well-curated sources like adaway.org, mvps.org, malwaredomainlist.com, someonewhocares.org, and potentially others. You can optionally invoke extensions to block additional sites by category.",
   "main": "",
+  "private": true,
   "scripts": {
     "test": "python3 testUpdateHostsFile.py",
     "start": "python3 makeHosts.py",
@@ -34,6 +35,6 @@
   },
   "homepage": "https://github.com/StevenBlack/hosts#readme",
   "devDependencies": {
-    "release-it": "^4.2.0"
+    "release-it": "^14.11.6"
   }
 }
